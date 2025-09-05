@@ -1,0 +1,35 @@
+<!-- This is a placeholder for the about section image -->
+<!-- Replace this file with your actual about image (recommended size: 600x400px) -->
+<!-- Suggested image: Baker working, kitchen scene, or owner portrait -->
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#fef9f3"/>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#dots)"/>
+  
+  <!-- Placeholder content -->
+  <rect x="100" y="50" width="400" height="300" rx="15" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Baker illustration -->
+  <circle cx="300" cy="150" r="40" fill="#f4c2a1"/>
+  <rect x="280" y="180" width="40" height="60" fill="#ffffff"/>
+  <rect x="270" y="240" width="60" height="80" fill="#8b4513"/>
+  
+  <!-- Chef hat -->
+  <ellipse cx="300" cy="120" rx="30" ry="15" fill="#ffffff"/>
+  <rect x="285" y="105" width="30" height="20" fill="#ffffff"/>
+  
+  <!-- Kitchen tools -->
+  <rect x="200" y="200" width="4" height="40" fill="#8b4513"/>
+  <ellipse cx="202" cy="195" rx="8" ry="5" fill="#c0c0c0"/>
+  
+  <rect x="380" y="210" width="30" height="4" fill="#8b4513"/>
+  <circle cx="415" cy="212" r="8" fill="#c0c0c0"/>
+  
+  <text x="300" y="350" text-anchor="middle" fill="#8d6e63" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    About Image Placeholder
+  </text>
+  <text x="300" y="375" text-anchor="middle" fill="#8d6e63" font-family="Arial, sans-serif" font-size="14">
+    Replace with baker or kitchen photo
+  </text>
+</svg>

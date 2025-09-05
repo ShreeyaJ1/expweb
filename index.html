@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams Bakery - Freshly Baked Daily</title>
+    <meta name="description" content="Sweet Dreams Bakery - Artisanal pastries and breads baked fresh daily with love">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 
+    ========================================
+    QUICK EDIT GUIDE FOR BEGINNERS
+    ========================================
+    
+    To customize this bakery website:
+    
+    1. BAKERY NAME & INFO: Look for "EDIT HERE" comments throughout the file
+    2. MENU ITEMS: Scroll to the Menu section - each item has name, description, price
+    3. IMAGES: Replace files in /assets/ folder with your own photos
+    4. COLORS: Edit the CSS variables at the top of styles.css
+    5. CONTACT INFO: Find the Contact section to update email, phone, address
+    6. TESTIMONIALS: Update customer quotes in the Testimonials section
+    
+    All sections are clearly marked with "EDIT HERE" comments!
+    ========================================
+    -->
+
+    <!-- Top Notice Bar -->
+    <div class="top-notice">
+        <div class="container">
+            <!-- EDIT HERE: Change the top notice message -->
+            <p>🌟 Freshly baked daily with organic ingredients 🌟</p>
+            <!-- END EDIT -->
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo and Bakery Name -->
+                <div class="logo-section">
+                    <img src="assets/logo.svg" alt="Sweet Dreams Bakery Logo" class="logo">
+                    <!-- EDIT HERE: Change bakery name -->
+                    <h1 class="bakery-name">Sweet Dreams Bakery</h1>
+                    <!-- END EDIT -->
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#menu" class="nav-link">Menu</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile">
+                <ul class="nav-list-mobile">
+                    <li><a href="#home" class="nav-link-mobile">Home</a></li>
+                    <li><a href="#about" class="nav-link-mobile">About</a></li>
+                    <li><a href="#menu" class="nav-link-mobile">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link-mobile">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link-mobile">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link-mobile">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <!-- EDIT HERE: Change hero headline and subtext -->
+                    <h2 class="hero-title">Handcrafted Pastries Made with Love</h2>
+                    <p class="hero-subtitle">Every morning, we bake fresh artisanal breads, pastries, and treats using traditional recipes and the finest ingredients.</p>
+                    <!-- END EDIT -->
+                    <a href="#menu" class="btn btn-primary">See Our Bakes</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/hero.jpg" alt="Fresh baked pastries and breads" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights/Features Section -->
+    <section class="highlights section">
+        <div class="container">
+            <div class="highlights-grid">
+                <!-- EDIT HERE: Customize feature cards -->
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title">Artisanal</h3>
+                    <p class="highlight-text">Handcrafted with traditional techniques passed down through generations</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title">Fresh Daily</h3>
+                    <p class="highlight-text">Baked fresh every morning before sunrise for maximum flavor and quality</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                            <path d="M8 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title">Locally Sourced</h3>
+                    <p class="highlight-text">We partner with local farms for the freshest, organic ingredients</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title">Made with Love</h3>
+                    <p class="highlight-text">Every item is crafted with care and passion by our dedicated bakers</p>
+                </div>
+                <!-- END EDIT -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/about.jpg" alt="Baker working in the kitchen" class="about-img">
+                </div>
+                <div class="about-text">
+                    <!-- EDIT HERE: Customize about section -->
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="about-description">
+                        Hi, I'm Emma Rodriguez, the founder and head baker of Sweet Dreams Bakery. What started as a childhood passion for baking with my grandmother has blossomed into a dream come true.
+                    </p>
+                    <p class="about-description">
+                        After years of perfecting family recipes and learning from master bakers around the world, I opened Sweet Dreams in 2019. Our mission is simple: to bring joy to your day through the art of exceptional baking.
+                    </p>
+                    <p class="about-description">
+                        Every croissant, every loaf, every pastry is made by hand with the finest ingredients. We believe that great baking takes time, patience, and most importantly, love.
+                    </p>
+                    <!-- END EDIT -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <h2 class="section-title text-center">Our Menu</h2>
+            <p class="section-subtitle text-center">Freshly baked daily with love and care</p>
+            
+            <div class="menu-grid">
+                <!-- EDIT HERE: Customize menu items (name, description, price, image) -->
+                <div class="menu-card">
+                    <img src="assets/menu/croissant.jpg" alt="Butter Croissant" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Butter Croissant</h3>
+                        <p class="menu-description">Flaky, buttery layers of perfection baked golden brown</p>
+                        <span class="menu-price">$3.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/sourdough.jpg" alt="Artisan Sourdough" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Artisan Sourdough</h3>
+                        <p class="menu-description">Traditional sourdough with a crispy crust and tangy flavor</p>
+                        <span class="menu-price">$8.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/cinnamon-roll.jpg" alt="Cinnamon Roll" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Cinnamon Roll</h3>
+                        <p class="menu-description">Soft, sweet dough swirled with cinnamon and topped with glaze</p>
+                        <span class="menu-price">$4.25</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/chocolate-muffin.jpg" alt="Chocolate Chip Muffin" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Chocolate Chip Muffin</h3>
+                        <p class="menu-description">Moist vanilla muffin loaded with premium chocolate chips</p>
+                        <span class="menu-price">$3.75</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/danish.jpg" alt="Fruit Danish" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Fruit Danish</h3>
+                        <p class="menu-description">Delicate pastry filled with seasonal fruit and cream cheese</p>
+                        <span class="menu-price">$4.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/baguette.jpg" alt="French Baguette" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">French Baguette</h3>
+                        <p class="menu-description">Classic French bread with a crispy crust and airy interior</p>
+                        <span class="menu-price">$5.50</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/scone.jpg" alt="Blueberry Scone" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Blueberry Scone</h3>
+                        <p class="menu-description">Tender, crumbly scone bursting with fresh blueberries</p>
+                        <span class="menu-price">$3.25</span>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="assets/menu/eclair.jpg" alt="Chocolate Éclair" class="menu-img" loading="lazy">
+                    <div class="menu-content">
+                        <h3 class="menu-title">Chocolate Éclair</h3>
+                        <p class="menu-description">Light choux pastry filled with cream and topped with chocolate</p>
+                        <span class="menu-price">$4.75</span>
+                    </div>
+                </div>
+                <!-- END EDIT -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <h2 class="section-title text-center">Gallery</h2>
+            <p class="section-subtitle text-center">A glimpse into our bakery</p>
+            
+            <div class="gallery-grid">
+                <img src="assets/gallery/gallery1.jpg" alt="Fresh bread display" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery2.jpg" alt="Baker kneading dough" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery3.jpg" alt="Pastry selection" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery4.jpg" alt="Coffee and croissant" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery5.jpg" alt="Bakery interior" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery6.jpg" alt="Fresh muffins" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery7.jpg" alt="Artisan bread" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery8.jpg" alt="Cake decoration" class="gallery-img" loading="lazy">
+                <img src="assets/gallery/gallery9.jpg" alt="Morning baking" class="gallery-img" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title text-center">What Our Customers Say</h2>
+            
+            <div class="testimonials-grid">
+                <!-- EDIT HERE: Customize testimonials (quote and customer name) -->
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"The croissants here are absolutely divine! They remind me of the ones I had in Paris. Emma truly has a gift for baking."</p>
+                    <p class="testimonial-author">- Sarah Johnson</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"I've been coming here every morning for two years. The sourdough is the best in town, and the staff always greets me with a smile."</p>
+                    <p class="testimonial-author">- Michael Chen</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Sweet Dreams Bakery made our wedding cake and it was not only beautiful but the most delicious cake we've ever tasted!"</p>
+                    <p class="testimonial-author">- Lisa & David Martinez</p>
+                </div>
+                <!-- END EDIT -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Hours Section -->
+    <section class="location section">
+        <div class="container">
+            <h2 class="section-title text-center">Visit Us</h2>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <!-- EDIT HERE: Update address and contact info -->
+                    <div class="location-item">
+                        <h3>Address</h3>
+                        <p>123 Baker Street<br>
+                        Sweet Valley, CA 90210<br>
+                        United States</p>
+                    </div>
+
+                    <div class="location-item">
+                        <h3>Phone</h3>
+                        <p>(555) 123-BAKE</p>
+                    </div>
+                    <!-- END EDIT -->
+
+                    <div class="location-item">
+                        <h3>Hours</h3>
+                        <!-- EDIT HERE: Update operating hours -->
+                        <table class="hours-table">
+                            <tr><td>Monday - Friday</td><td>6:00 AM - 7:00 PM</td></tr>
+                            <tr><td>Saturday</td><td>7:00 AM - 8:00 PM</td></tr>
+                            <tr><td>Sunday</td><td>7:00 AM - 6:00 PM</td></tr>
+                        </table>
+                        <!-- END EDIT -->
+                    </div>
+                </div>
+
+                <div class="location-map">
+                    <!-- Note: This is a placeholder for a static map image -->
+                    <img src="assets/map-placeholder.jpg" alt="Map showing bakery location" class="map-img">
+                    <p class="map-note">📍 Located in the heart of Sweet Valley's historic district</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title text-center">Get in Touch</h2>
+            
+            <div class="contact-content">
+                <!-- EDIT HERE: Update contact information -->
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p class="contact-email">hello@sweetdreamsbakery.com</p>
+                    <button class="btn btn-secondary copy-email-btn">Copy Email</button>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>(555) 123-BAKE</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Follow Us</h3>
+                    <p>@sweetdreamsbakery (Instagram)<br>
+                    @sweetdreamsbakery (Facebook)<br>
+                    @sweetdreamsbake (Twitter)</p>
+                </div>
+                <!-- END EDIT -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <!-- EDIT HERE: Update bakery name in footer -->
+                    <h3>Sweet Dreams Bakery</h3>
+                    <p>&copy; 2024 Sweet Dreams Bakery. All rights reserved.</p>
+                    <!-- END EDIT -->
+                </div>
+                
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#menu" class="footer-link">Menu</a></li>
+                        <li><a href="#gallery" class="footer-link">Gallery</a></li>
+                        <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

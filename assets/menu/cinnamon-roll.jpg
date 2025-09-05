@@ -1,0 +1,26 @@
+<!-- Cinnamon Roll menu item placeholder -->
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#fef9f3"/>
+  
+  <!-- Cinnamon roll base -->
+  <circle cx="150" cy="100" r="50" fill="#d4a574"/>
+  
+  <!-- Spiral pattern -->
+  <path d="M150 100 Q170 90 180 100 Q170 120 150 115 Q130 110 135 100 Q145 95 150 100" 
+        stroke="#8b4513" stroke-width="3" fill="none"/>
+  <path d="M150 100 Q160 95 165 100 Q160 110 150 107 Q140 105 142 100 Q147 98 150 100" 
+        stroke="#8b4513" stroke-width="2" fill="none"/>
+  
+  <!-- Glaze -->
+  <path d="M120 80 Q150 75 180 80 Q170 85 150 82 Q130 85 120 80" fill="#ffffff" opacity="0.8"/>
+  <path d="M130 90 Q150 88 170 90 Q160 92 150 91 Q140 92 130 90" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Cinnamon specks -->
+  <circle cx="140" cy="95" r="1" fill="#8b4513"/>
+  <circle cx="160" cy="105" r="1" fill="#8b4513"/>
+  <circle cx="145" cy="110" r="0.5" fill="#8b4513"/>
+  
+  <text x="150" y="170" text-anchor="middle" fill="#8d6e63" font-family="Arial, sans-serif" font-size="14">
+    Cinnamon Roll Image Placeholder
+  </text>
+</svg>

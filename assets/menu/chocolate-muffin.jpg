@@ -1,0 +1,29 @@
+<!-- Chocolate Muffin menu item placeholder -->
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#fef9f3"/>
+  
+  <!-- Muffin wrapper -->
+  <path d="M100 130 L200 130 L190 150 L110 150 Z" fill="#8b4513"/>
+  
+  <!-- Muffin base -->
+  <ellipse cx="150" cy="130" rx="50" ry="20" fill="#d4a574"/>
+  
+  <!-- Muffin top -->
+  <ellipse cx="150" cy="100" rx="45" ry="30" fill="#8b4513"/>
+  <ellipse cx="150" cy="95" rx="40" ry="25" fill="#a0522d"/>
+  
+  <!-- Chocolate chips -->
+  <circle cx="135" cy="90" r="3" fill="#3c1810"/>
+  <circle cx="155" cy="95" r="3" fill="#3c1810"/>
+  <circle cx="145" cy="105" r="2.5" fill="#3c1810"/>
+  <circle cx="165" cy="100" r="2.5" fill="#3c1810"/>
+  <circle cx="140" cy="110" r="2" fill="#3c1810"/>
+  <circle cx="160" cy="110" r="2" fill="#3c1810"/>
+  
+  <!-- Texture -->
+  <ellipse cx="150" cy="90" rx="35" ry="20" fill="#654321" opacity="0.3"/>
+  
+  <text x="150" y="170" text-anchor="middle" fill="#8d6e63" font-family="Arial, sans-serif" font-size="14">
+    Chocolate Muffin Image Placeholder
+  </text>
+</svg>

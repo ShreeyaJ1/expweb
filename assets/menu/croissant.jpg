@@ -1,0 +1,17 @@
+<!-- Croissant menu item placeholder -->
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#fef9f3"/>
+  
+  <!-- Croissant illustration -->
+  <path d="M80 100 Q120 80 160 90 Q200 100 220 120 Q210 140 180 135 Q140 130 100 140 Q70 130 80 100" fill="#f4d03f"/>
+  <path d="M85 105 Q115 90 145 95 Q175 100 195 115 Q190 125 170 122 Q140 120 110 125 Q85 120 85 105" fill="#f7dc6f"/>
+  
+  <!-- Texture lines -->
+  <path d="M95 110 Q125 100 155 105" stroke="#e6c19a" stroke-width="1" fill="none"/>
+  <path d="M100 120 Q130 110 160 115" stroke="#e6c19a" stroke-width="1" fill="none"/>
+  <path d="M90 115 Q120 105 150 110" stroke="#e6c19a" stroke-width="1" fill="none"/>
+  
+  <text x="150" y="170" text-anchor="middle" fill="#8d6e63" font-family="Arial, sans-serif" font-size="14">
+    Croissant Image Placeholder
+  </text>
+</svg>
