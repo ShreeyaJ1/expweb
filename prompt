@@ -1,0 +1,56 @@
+You are designing a SINGLE-PAGE, STATIC, cute–minimalist bakery website inspired by https://cakery.weblium.site/ (DO NOT copy text, assets, or exact fonts). Keep the same SECTION ORDER and ELEMENT PLACEMENT as the reference, but create an alternate, original design.
+
+## High-level goals
+- One-page, static site. No “Order now” or e-commerce.
+- Cute, soft, minimal vibe; rounded corners, subtle shadows, soft pastels.
+- Source code must be SIMPLE and heavily commented so a CS beginner can edit text/images easily.
+- All links must be in-document anchors (e.g., #about, #menu). No external links/CDNs.
+- Accessibility & performance: semantic HTML, alt text, good color contrast, responsive, images lazy-loaded.
+
+## Tech constraints
+- Files: `/index.html`, `/styles.css`, `/script.js`, `/assets/` (placeholder images + optional logo.svg), `/assets/fonts/` (embed one open-source cute font as WOFF2).
+- NO external CSS/JS/CDNs/Google Fonts. If using a custom font (e.g., Nunito or Quicksand—NOT the reference site’s), embed locally as WOFF2 via `@font-face` in `styles.css`.
+- Minimal vanilla JS only for mobile menu toggle and smooth scrolling. No frameworks.
+
+## Layout (match the reference site’s section order & approximate placement)
+1) **Top Notice / Tagline (optional)**
+   - Small bar with short message (e.g., “Freshly baked daily”).
+2) **Header**
+   - Left: logo (use `/assets/logo.svg` placeholder) + bakery name.
+   - Right: in-page nav: Home, About, Menu, Gallery, Testimonials, Contact.
+   - Mobile: hamburger menu.
+3) **Hero**
+   - Large headline, short subtext, one primary button that scrolls to “Menu” (label: “See Our Bakes”). NO “Order now”.
+   - Hero image to the right or background, positioned similar to reference layout (use `/assets/hero.jpg` placeholder).
+4) **Highlights / Features (3–4 cards)**
+   - Example: “Artisanal”, “Fresh Daily”, “Locally Sourced”, “Made with Love”.
+   - Small icons (SVG placeholders).
+5) **About Us**
+   - Image left, text right (or vice-versa), mirroring the reference composition.
+   - Include owner name and a short story.
+6) **Menu / Pricing Grid**
+   - 6–12 items in a clean grid (card per item: image, name, short description, price).
+   - Use placeholder images in `/assets/menu/`.
+7) **Gallery**
+   - 6–9 images in a neat masonry/grid layout; all `loading="lazy"`.
+8) **Testimonials**
+   - 2–3 short quotes with customer names; soft card styling.
+9) **Location & Hours**
+   - Address, hours table, contact number; include a NOTE that any map must be a static image placeholder (no external embeds).
+10) **Contact (non-form)**
+   - Email, phone, social placeholders as plain text (no external links). Include a simple “Copy email” button (JS).
+11) **Footer**
+   - Bakery name, copyright year, tiny nav duplicates.
+
+## Editing-friendly structure
+- Place CLEAR “EDIT HERE” comment blocks around every editable text or list:
+  - Bakery name, tagline, owner info, address, hours, email, phone.
+  - Menu items (name, description, price, image file path).
+  - Testimonials (name, quote).
+- Provide a single “Quick Edit Guide” comment at the top of `index.html` explaining where to change things.
+- Keep class names descriptive and consistent (e.g., `.section`, `.container`, `.card`, `.btn`).
+- For beginners: include short inline comments (what this section is, what to edit).
+- Use human-readable CSS (grouped by section with `/* === Section Name === */` comments).
+
+## Visual styling
+- Palette: soft pastels (e.g., cream background, blush pink accents, cocoa brown text). Use CSS variables at top of `styles.css`:
